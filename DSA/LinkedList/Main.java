@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
@@ -24,7 +26,13 @@ public class Main {
 
 
 //        list.removeFirst();
-        list.removeLast();
+//        list.removeLast();
+
+        System.out.println(list.get(3));
+        System.out.println(list.search(100));
+
+        list.insertAtIndex(3, 11);
+
 
         list.print();
         System.out.println("Length: "+list.getLength());

@@ -20,6 +20,32 @@ public class LinkedList {
         }
     }
 
+    public void insertAtIndex(int index, int value){
+        Node current = head;
+        int pos = 0;
+
+        if(index == 0){
+            Node node = new Node(value);
+            node.next = head;
+            head = node;
+            return;
+        }
+
+        while (current!=null && pos < index-1){
+            pos++;
+            current = current.next;
+        }
+
+        if(current!=null){
+            Node node = new Node(value);
+            node.next = current.next;
+            current.next = node;
+            return;
+        }
+
+        throw new IndexOutOfBoundsException("Please enter valid index");
+    }
+
     public void remove(int value) {
         if (head == null) {
             return;
@@ -42,10 +68,9 @@ public class LinkedList {
     }
 
     public void removeFirst(){
-        if (head == null){
-            return;
+        if (head != null){
+            head = head.next;
         }
-        head = head.next;
     }
 
     public void removeLast(){
@@ -59,7 +84,7 @@ public class LinkedList {
         }
 
         Node current = head;
-        while (current.next != null && current.next.next != null){
+        while (current.next.next != null){
             current = current.next;
         }
         current.next = null;
@@ -74,6 +99,35 @@ public class LinkedList {
         }
 
         return count;
+    }
+
+    //following zero based indexing
+    public int search(int value){
+        int pos = -1;
+        Node current = head;
+        while (current!=null){
+            pos++;
+            if(current.value==value){
+                return pos;
+            }
+            current = current.next;
+        }
+        return -1;
+    }
+
+    public int get(int index){
+        Node current = head;
+        int pos = 0;
+
+        while (current!=null){
+            if(pos == index){
+                return current.value;
+            }
+            pos++;
+            current = current.next;
+        }
+
+        throw new IndexOutOfBoundsException("Please enter valid index");
     }
 
     public void print() {
