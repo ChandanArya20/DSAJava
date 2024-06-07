@@ -12,7 +12,6 @@ public class CLLMain {
         list.insertAtLast(24);
 
 
-
         list.print();
         System.out.println("Length: "+list.getLength());
 

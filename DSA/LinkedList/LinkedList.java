@@ -2,13 +2,13 @@ public class LinkedList {
 
     private Node head;
 
-    public void insertAtFirst(int value){
+    public void insertAtFirst(int value) {
         Node node = new Node(value);
         node.next = head;
         head = node;
     }
 
-    public void insertAtLast(int value){
+    public void insertAtLast(int value) {
         if (head == null) {
             head = new Node(value);
         } else {
@@ -20,23 +20,23 @@ public class LinkedList {
         }
     }
 
-    public void insertAtIndex(int index, int value){
+    public void insertAtIndex(int index, int value) {
         Node current = head;
         int pos = 0;
 
-        if(index == 0){
+        if (index == 0) {
             Node node = new Node(value);
             node.next = head;
             head = node;
             return;
         }
 
-        while (current!=null && pos < index-1){
+        while (current != null && pos < index - 1) {
             pos++;
             current = current.next;
         }
 
-        if(current!=null){
+        if (current != null) {
             Node node = new Node(value);
             node.next = current.next;
             current.next = node;
@@ -67,33 +67,33 @@ public class LinkedList {
         }
     }
 
-    public void removeFirst(){
-        if (head != null){
+    public void removeFirst() {
+        if (head != null) {
             head = head.next;
         }
     }
 
-    public void removeLast(){
-        if(head == null){
+    public void removeLast() {
+        if (head == null) {
             return;
         }
 
-        if(head.next == null){
+        if (head.next == null) {
             head = null;
             return;
         }
 
         Node current = head;
-        while (current.next.next != null){
+        while (current.next.next != null) {
             current = current.next;
         }
         current.next = null;
     }
 
     public int getLength() {
-        int count=0;
+        int count = 0;
         Node current = head;
-        while (current!=null){
+        while (current != null) {
             count++;
             current = current.next;
         }
@@ -102,12 +102,12 @@ public class LinkedList {
     }
 
     //following zero based indexing
-    public int search(int value){
+    public int search(int value) {
         int pos = -1;
         Node current = head;
-        while (current!=null){
+        while (current != null) {
             pos++;
-            if(current.value==value){
+            if (current.value == value) {
                 return pos;
             }
             current = current.next;
@@ -115,12 +115,12 @@ public class LinkedList {
         return -1;
     }
 
-    public int get(int index){
+    public int get(int index) {
         Node current = head;
         int pos = 0;
 
-        while (current!=null){
-            if(pos == index){
+        while (current != null) {
+            if (pos == index) {
                 return current.value;
             }
             pos++;
@@ -137,6 +137,58 @@ public class LinkedList {
             current = current.next;
         }
         System.out.println("null");
+    }
+
+    public void insertAtAfterRec(int value, int index) {
+        head = insertAtAfterRec(head, value, index);
+    }
+
+    private Node insertAtAfterRec(Node current, int value, int index) {
+
+        if (index == 0) {
+            Node node = new Node(value);
+            node.next = current;
+            return node;
+        }
+
+        if (current == null) {
+            throw new IndexOutOfBoundsException("Please enter valid index");
+        }
+
+        current.next = insertAtAfterRec(current.next, value, index - 1);
+        return current;
+    }
+
+    public void insertAtLastRec(int value) {
+        head = insertAtLastRec(head, value);
+    }
+
+    private Node insertAtLastRec(Node current, int value) {
+
+        if (current == null) {
+            return new Node(value);
+        }
+
+        current.next = insertAtLastRec(current.next, value);
+        return current;
+    }
+
+    public void removeDuplicates() {
+        Node current = head;
+
+        if(head==null){
+            return;
+        }
+
+        while (current.next != null) {
+
+            if (current.value == current.next.value) {
+                current.next = current.next.next;
+            } else {
+                current = current.next;
+            }
+
+        }
     }
 
 
