@@ -176,7 +176,7 @@ public class LinkedList {
     public void removeDuplicates() {
         Node current = head;
 
-        if(head==null){
+        if (head == null) {
             return;
         }
 
@@ -189,6 +189,33 @@ public class LinkedList {
             }
 
         }
+    }
+
+    public static LinkedList merge(LinkedList first, LinkedList second) {
+        LinkedList list = new LinkedList();
+        Node f = first.head;
+        Node s = second.head;
+
+        while (f != null && s != null) {
+            if (f.value < s.value) {
+                list.insertAtLast(f.value);
+                f = f.next;
+            } else {
+                list.insertAtLast(s.value);
+                s = s.next;
+            }
+        }
+
+        while (f != null) {
+            list.insertAtLast(f.value);
+            f = f.next;
+        }
+        while (s != null) {
+            list.insertAtLast(s.value);
+            s = s.next;
+        }
+
+        return list;
     }
 
 

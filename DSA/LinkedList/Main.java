@@ -44,10 +44,29 @@ public class Main {
 //        list.insertAtAfterRec(90, 2);
         list.print();
 
-        list.removeDuplicates();
+//        list.removeDuplicates();
 
-        list.print();
-        System.out.println("Length: "+list.getLength());
+        LinkedList list1 = new LinkedList();
+        LinkedList list2 = new LinkedList();
+
+        list1.insertAtLast(3);
+        list1.insertAtLast(10);
+        list1.insertAtLast(19);
+        list1.insertAtLast(32);
+        list1.insertAtLast(32);
+
+        list2.insertAtLast(5);
+        list2.insertAtLast(10);
+        list2.insertAtLast(15);
+        list2.insertAtLast(22);
+        list2.insertAtLast(40);
+
+        LinkedList mergedList = LinkedList.merge(list1, list2);
+        mergedList.print();
+
+
+//        list.print();
+//        System.out.println("Length: "+list.getLength());
 
 
 
