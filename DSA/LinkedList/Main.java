@@ -61,12 +61,21 @@ public class Main {
         list2.insertAtLast(22);
         list2.insertAtLast(40);
 
-        LinkedList mergedList = LinkedList.merge(list1, list2);
-        mergedList.print();
+//        LinkedList mergedList = LinkedList.merge(list1, list2);
+//        mergedList.print();
 
+        LinkedList cycle = new LinkedList();
+        cycle.insertAtLast(12);
+        cycle.insertAtLast(33);
+        new
+        cycle.insertAtLast(4);
+        cycle.insertAtLast(8);
+        cycle.insertAtLast(20);
+        cycle.insertAtLast(40);
+        cycle.insertAtLast(15);
 
-//        list.print();
-//        System.out.println("Length: "+list.getLength());
+        list.print();
+        System.out.println("Length: "+list.getLength());
 
 
 

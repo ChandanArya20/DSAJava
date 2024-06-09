@@ -218,6 +218,43 @@ public class LinkedList {
         return list;
     }
 
+    public boolean hasCycle(){
+        Node slow = head;
+        Node fast = head;
+
+        while (fast!=null && fast.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if(slow==fast){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int cycleLength(){
+        Node slow = head;
+        Node fast = head;
+
+        while (fast!=null && fast.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if(slow==fast){
+                //calculate length of cycle
+                int length=0;
+                do {
+                    slow=slow.next;
+                    length++;
+                }while(slow!=fast);
+
+                return length;
+            }
+        }
+        return 0;
+    }
+
 
     private class Node {
         private int value;
