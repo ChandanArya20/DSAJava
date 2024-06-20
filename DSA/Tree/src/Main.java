@@ -16,7 +16,7 @@ public class Main {
         rightChild.setRight(new Node(7));
 
         // Printing nodes
-        print(root);
+        printTree(root);
 
     }
 
@@ -29,17 +29,4 @@ public class Main {
         printTree(root.right);
     }
 
-    // Print method to display the tree structure
-    public static void print(Node root) {
-        print(root, "", true);
-    }
-
-    // Helper method to print the tree
-    private static void print(Node node, String prefix, boolean isTail) {
-        if (node != null) {
-            System.out.println(prefix + (isTail ? "└── " : "├── ") + node.data);
-            print(node.left, prefix + (isTail ? "    " : "│   "), false);
-            print(node.right, prefix + (isTail ? "    " : "│   "), true);
-        }
-    }
 }
