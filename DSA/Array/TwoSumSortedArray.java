@@ -1,19 +1,26 @@
 import java.util.Arrays;
 
-public class RemoveDuplicateSortedArray {
+public class TwoSumSortedArray {
 
     public static void main(String[] args) {
-        int[] arr = {2, 3, 3, 3, 4, 6, 9, 9, 9};
-        System.out.println(removeDuplicates(arr));
+        int[] arr = {2,7,11,15};
+        System.out.println(Arrays.toString(twoSum(arr, 9)));
     }
 
-    public static int removeDuplicates(int[] nums) {
-        int j = 1;
-        for(int i=1; i< nums.length; i++){
-            if(nums[i]!=nums[i-1]){
-                nums[j++] = nums[i];
+    public static int[] twoSum(int[] numbers, int target) {
+        int i = 0;
+        int j = numbers.length-1;
+
+        while(i < j){
+            if(numbers[i]+numbers[j]==target){
+                return new int[]{i+1, j+1};
+            } else if(numbers[i]+numbers[j] < target){
+                i++;
+            }else{
+                j--;
             }
         }
-        return j;
+
+        return new int[]{-1, -1};
     }
 }
