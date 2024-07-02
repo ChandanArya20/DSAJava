@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="445fd459-38d3-4de3-8cb1-fb1e2d32b67f" name="Changes" comment="today solved problems">
-      <change afterPath="$PROJECT_DIR$/RemoveDuplicateSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign/array/FindsDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RemoveDuplicateSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/assign/array/RemoveDuplicateSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.DissappearedNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSumSortedArray.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -64,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DissappearedNumbers">
+  <component name="RunManager">
     <configuration name="BinarySearch" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-17.0.4.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
