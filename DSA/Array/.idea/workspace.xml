@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="445fd459-38d3-4de3-8cb1-fb1e2d32b67f" name="Changes" comment="today solved problems">
-      <change afterPath="$PROJECT_DIR$/assign/array/CheckSubset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign/array/FindsDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign/array/PrintSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign/string/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign/string/CheckPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign/string/CountCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign/string/CountDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign/string/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RemoveDuplicateSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/assign/array/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Array/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,32 +51,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CheckSubset.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DissappearedNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindsDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintSubArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicateSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSumSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CheckPalindrome.executor": "Run",
+    "Application.CheckSubset.executor": "Run",
+    "Application.CountCharacter.executor": "Run",
+    "Application.CountDuplicates.executor": "Run",
+    "Application.DissappearedNumbers.executor": "Run",
+    "Application.FindsDuplicates.executor": "Run",
+    "Application.PrintSubArray.executor": "Run",
+    "Application.RemoveDuplicateSortedArray.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
+    "Application.TwoSumSortedArray.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Chandan/Desktop/DSA with Java/DSA/Array/assign/array",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chandan\Desktop\DSA with Java\DSA\Array\assign\array" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="assign.string" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager">
     <configuration name="BinarySearch" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-17.0.4.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
