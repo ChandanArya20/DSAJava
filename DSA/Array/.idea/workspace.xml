@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="445fd459-38d3-4de3-8cb1-fb1e2d32b67f" name="Changes" comment="today solved problems">
-      <change afterPath="$PROJECT_DIR$/assign/string/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign/string/CheckPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign/string/CountCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign/string/CountDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign/string/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign/string/AnagramAndPangram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign/string/ChechAllUniqueChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign/string/FirstNonRpeatChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign/string/MaxOccurredChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assign/string/Anagram.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +52,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Anagram.executor": "Run",
+    "Application.ChechAllUniqueChar.executor": "Run",
     "Application.CheckPalindrome.executor": "Run",
     "Application.CheckSubset.executor": "Run",
     "Application.CountCharacter.executor": "Run",
     "Application.CountDuplicates.executor": "Run",
     "Application.DissappearedNumbers.executor": "Run",
     "Application.FindsDuplicates.executor": "Run",
+    "Application.FirstNonRpeatChar.executor": "Run",
+    "Application.MaxOccurredChar.executor": "Run",
     "Application.PrintSubArray.executor": "Run",
     "Application.RemoveDuplicateSortedArray.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
