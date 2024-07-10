@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="445fd459-38d3-4de3-8cb1-fb1e2d32b67f" name="Changes" comment="today solved problems">
-      <change afterPath="$PROJECT_DIR$/BuyAndSellStock1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,34 +46,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Anagram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChechAllUniqueChar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckSubset.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DissappearedNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindsDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstNonRpeatChar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxOccurredChar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintSubArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicateSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSumSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Chandan/Desktop/DSA with Java/DSA/Array/assign/array&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Anagram.executor": "Run",
+    "Application.BuyAndSellStock1.executor": "Run",
+    "Application.ChechAllUniqueChar.executor": "Run",
+    "Application.CheckPalindrome.executor": "Run",
+    "Application.CheckSubset.executor": "Run",
+    "Application.CountCharacter.executor": "Run",
+    "Application.CountDuplicates.executor": "Run",
+    "Application.DissappearedNumbers.executor": "Run",
+    "Application.FindsDuplicates.executor": "Run",
+    "Application.FirstNonRpeatChar.executor": "Run",
+    "Application.MaxOccurredChar.executor": "Run",
+    "Application.PrintSubArray.executor": "Run",
+    "Application.RemoveDuplicateSortedArray.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.TwoSumSortedArray.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Chandan/Desktop/DSA with Java/DSA/Array/assign/array",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Chandan\Desktop\DSA with Java\DSA\Array\assign\array" />
