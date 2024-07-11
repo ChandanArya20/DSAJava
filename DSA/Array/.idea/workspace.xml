@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="445fd459-38d3-4de3-8cb1-fb1e2d32b67f" name="Changes" comment="today solved problems">
+      <change afterPath="$PROJECT_DIR$/PlusOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,7 @@
     "Application.FindsDuplicates.executor": "Run",
     "Application.FirstNonRpeatChar.executor": "Run",
     "Application.MaxOccurredChar.executor": "Run",
+    "Application.PlusOne.executor": "Run",
     "Application.PrintSubArray.executor": "Run",
     "Application.RemoveDuplicateSortedArray.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
@@ -69,7 +70,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Chandan/Desktop/DSA with Java/DSA/Array/assign/array",
+    "last_opened_file_path": "C:/Users/Chandan/Desktop/DSA with Java/DSA/Array",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
