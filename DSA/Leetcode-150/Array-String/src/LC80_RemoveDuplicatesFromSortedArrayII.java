@@ -1,16 +1,9 @@
-public class LC88_MergeSortedArray {
-    public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int i = m - 1;
-        int j = n - 1;
-        int k = m + n - 1;
-
-        // Loop until we have processed all elements in nums2
-        while (j >= 0) {
-            if (i >= 0 && nums1[i] > nums2[j]) {
-                nums1[k--] = nums1[i--];
-            } else {
-                nums1[k--] = nums2[j--];
-            }
-        }
+class LC80_RemoveDuplicatesFromSortedArrayII {
+    public int removeDuplicates(int[] nums) {
+        int i = 0;
+        for (int n : nums)
+            if (i < 2 || n > nums[i - 2])
+                nums[i++] = n;
+        return i;
     }
 }
