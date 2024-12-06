@@ -1,9 +1,13 @@
 class LC80_RemoveDuplicatesFromSortedArrayII {
     public int removeDuplicates(int[] nums) {
-        int i = 0;
-        for (int n : nums)
-            if (i < 2 || n > nums[i - 2])
-                nums[i++] = n;
-        return i;
+        int k=1;
+        
+        for(int i=1;i<nums.length;i++){
+            if(nums[i]!=nums[i-1]){
+                nums[k++]=nums[i];
+            }
+        }
+
+        return k;
     }
 }
